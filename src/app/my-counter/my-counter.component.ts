@@ -20,11 +20,9 @@ export class MyCounterComponent {
 
   decrement() {
     this.store.dispatch(decrement());
-    // TODO: Dispatch a decrement action
   }
 
   reset() {
     this.store.dispatch(reset());
-    // TODO: Dispatch a reset action
   }
 }
